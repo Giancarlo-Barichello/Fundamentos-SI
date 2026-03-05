@@ -9,7 +9,7 @@
 ---
 
 ## IaaS (Infrastructure as a Service)
-- Fornece infraestrutura de TI virtualizada, como servidores, redes e armazenamento pela internet/nuvem.
+- Fornece infraestrutura de TI, como servidores, redes e armazenamento pela internet/nuvem.
 - Exemplo: Microsoft Azure Virtual Machines.
 
 ---
