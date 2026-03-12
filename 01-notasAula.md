@@ -9,7 +9,7 @@ Neste arquivo, há apontamentos e anotações de pontos discutidos em sala.
   - Computação ou processamento
      - Desktop
      - Web -> Cloud Computing / Computação em Nuvem
-       - Apps (Softwareinstalado em equipamento)
+       - Apps (Software instalado em equipamento)
        - Navegador
     - IoT (Internet of Things)
         - Vantagens
