@@ -1,6 +1,33 @@
 # Notas de aula da disciplina
 Neste arquivo, há apontamentos e anotações de pontos discutidos em sala.
 
+## Aula 4
+  - Conceitos:
+    - Sistemas;
+     - Partes
+     - Tipos
+  - Computação ou processamento
+     - Desktop
+     - Web -> Cloud Computing - Computação em Nuvem
+       - Apps (Softwareinstalado em equipamento)
+       - Navegador
+    - IoT (Internet of Things)
+        - Vantagens
+           - Flexibilidade
+           - Autonomia
+           - Agilidade
+           - Inegração de tecnologia
+        - Desvantagens
+           - Segurança
+           - Dependencia (ex: internet)
+        - Arquitetura
+           - Cliente-Servidor
+           - Ponto-a-Ponto
+     - Modelos aquiteturais de serviços
+        - Iaas
+       - PaaS
+        - SaaS
+
 ## Aula 3
   - Apresentação da Oficina de Git - https://github.com/alexandrezamberlan/oficinaGit
   - Apresentação, discussão e 1o trabalho avaliado
