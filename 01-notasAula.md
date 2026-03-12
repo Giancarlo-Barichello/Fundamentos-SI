@@ -8,7 +8,7 @@ Neste arquivo, há apontamentos e anotações de pontos discutidos em sala.
      - Tipos
   - Computação ou processamento
      - Desktop
-     - Web -> Cloud Computing - Computação em Nuvem
+     - Web -> Cloud Computing / Computação em Nuvem
        - Apps (Softwareinstalado em equipamento)
        - Navegador
     - IoT (Internet of Things)
@@ -27,11 +27,14 @@ Neste arquivo, há apontamentos e anotações de pontos discutidos em sala.
         - Iaas
        - PaaS
         - SaaS
+---
 
 ## Aula 3
   - Apresentação da Oficina de Git - https://github.com/alexandrezamberlan/oficinaGit
   - Apresentação, discussão e 1o trabalho avaliado
     - Cada aluno deve criar no seu repositório da disciplina um arquivo chamado 02-glossario.md. Nesse arquivo, terá um vocabulário de palavras e/ou expressões estudadas na disciplina.
+   
+---
 
 ## Aula 2
   - Apresentação e discussão da ferramenta e ambiente GITHUB
@@ -39,7 +42,9 @@ Neste arquivo, há apontamentos e anotações de pontos discutidos em sala.
     - criação de repositório
     - objetivos:
       - controle de versão
-      - armazenamento de backup de códigos fonte  
+      - armazenamento de backup de códigos fonte
+
+---
 
 ## Aula 1
   - Apresentação do plano de aula
