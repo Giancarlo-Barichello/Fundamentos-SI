@@ -53,97 +53,91 @@
 
 ---
 
-## Assunto
-Tipos de Sistemas de Informação
+# Glossário — Fundamentos de Sistemas de Informação
 
 ---
 
-## Tipos de Sistema
+## Assunto
+> Tipos de Sistemas de Informação
 
-- PaaS (Platform as a Service)
-- IaaS (Infrastructure as a Service)
-- SaaS (Software as a Service)
-- FaaS (Function as a Service)
-- DaaS (Desktop as a Service)
-- DBaaS (Database as a Service)
-- SECaaS (Security as a Service)
+---
+
+## Tipos de Sistema de Informação
+
+- **Sistemas de Processamento de Transações (SPT / TPS)**
+- **Sistemas de Informação Gerencial (SIG / MIS)**
+- **Sistemas de Apoio à Decisão (SAD / DSS)**
+- **Sistemas de Apoio Executivo (SAE / EIS)**
+- **Sistemas Especialistas / Gestão do Conhecimento (SE / KMS)**
 
 ---
 
 ## O que cada um faz
 
-###  PaaS — Platform as a Service (Plataforma como Serviço)
-Fornece um ambiente completo com ferramentas para **desenvolver, testar e publicar aplicações**, sem que o desenvolvedor precise se preocupar em gerenciar servidores, sistemas operacionais ou infraestrutura.
+### 🔹 Sistemas de Processamento de Transações (SPT)
+Cuida das tarefas do dia a dia de uma empresa, como registrar vendas, compras e pagamentos.
+É a base de dados para todos os outros sistemas.
 
-**Exemplo:** Google App Engine.
+### 🔹 Sistemas de Informação Gerencial (SIG)
+Pega os dados do SPT e transforma em relatórios e resumos para os gerentes acompanharem como a empresa está indo.
 
----
+### 🔹 Sistemas de Apoio à Decisão (SAD)
+Junta dados internos e externos para ajudar gestores a tomarem decisões em situações mais complicadas, onde não tem uma resposta pronta.
 
-###  IaaS — Infrastructure as a Service (Infraestrutura como Serviço)
-Disponibiliza infraestrutura de TI — como **servidores virtuais, redes, armazenamento e processamento** — sob demanda. O usuário gerencia o sistema operacional e as aplicações, enquanto o provedor cuida do hardware físico.
+### 🔹 Sistemas de Apoio Executivo (SAE / EIS)
+Voltado para diretores e presidentes, mostra uma visão geral da organização com gráficos e indicadores para decisões estratégicas de longo prazo.
 
-**Exemplo:** Microsoft Azure Virtual Machines.
-
----
-
-###  SaaS — Software as a Service (Software como Serviço)
-Modelo em que o software é **disponibilizado diretamente pela internet**, podendo ser acessado pelo navegador sem necessidade de instalação ou manutenção local. O provedor gerencia tudo: infraestrutura, atualizações e segurança.
-
-**Exemplo:** Google Docs.
-
----
-
-###  FaaS — Function as a Service (Função como Serviço)
-Modelo **serverless** (sem servidor dedicado) onde pequenas funções de código são executadas automaticamente em resposta a eventos específicos. O desenvolvedor foca apenas na lógica da função, sem gerenciar servidores.
-
-**Exemplo:** Azure Functions.
-
----
-
-###  DaaS — Desktop as a Service (Desktop como Serviço)
-Fornece **desktops virtuais hospedados em servidores remotos**, acessíveis por qualquer dispositivo (computador, tablet, smartphone). Facilita o trabalho remoto e centraliza a gestão dos ambientes de trabalho.
-
-**Exemplo:** Citrix DaaS.
-
----
-
-###  DBaaS — Database as a Service (Banco de Dados como Serviço)
-Serviço de **banco de dados gerenciado**, onde o provedor cuida de toda a infraestrutura, manutenção, escalabilidade e backups automáticos. O usuário apenas utiliza o banco de dados sem se preocupar com o ambiente.
-
-**Exemplo:** MongoDB Atlas.
-
----
-
-###  SECaaS — Security as a Service (Segurança como Serviço)
-Modelo que fornece **serviços de segurança digital**, como proteção contra ataques (DDoS), autenticação, criptografia, firewall e monitoramento contínuo, sem necessidade de hardware ou software dedicado no local.
-
-**Exemplo:** Cloudflare.
+### 🔹 Sistemas Especialistas / Gestão do Conhecimento (SE / KMS)
+Tenta imitar o raciocínio humano usando inteligência artificial e regras lógicas para resolver problemas complexos em áreas específicas.
 
 ---
 
 ## Que tipo de SI eles são?
- 
-###  gov.br
-- **SaaS (Software as a Service):** Os serviços públicos digitais são acessados diretamente pelo navegador, sem instalação, sendo toda a infraestrutura gerenciada pelo governo.
-- **SECaaS (Security as a Service):** Utiliza autenticação digital (Gov.br login), certificação e criptografia para garantir a segurança dos dados dos cidadãos.
- 
----
- 
-###  Netflix
-- **SaaS (Software as a Service):** O serviço de streaming é acessado pelo navegador ou app, sem instalação de software complexo pelo usuário.
-- **IaaS (Infrastructure as a Service):** Utiliza infraestrutura virtualizada (como a AWS) para hospedar e distribuir seu conteúdo globalmente.
- 
----
- 
-###  Minha Agenda UFN
-- **SaaS (Software as a Service):** Acessado via navegador pelos alunos e professores da UFN, sem necessidade de instalação local.
-- **DBaaS (Database as a Service):** Armazena e gerencia dados de agendamentos, usuários e eventos acadêmicos em banco de dados centralizado.
- 
----
- 
-###  Sistema de Imposto de Renda do Governo Brasileiro
-- **SaaS (Software as a Service):** O programa e a entrega da declaração podem ser feitos via navegador (e-CAC), sem infraestrutura local pelo cidadão.
-- **IaaS (Infrastructure as a Service):** A Receita Federal utiliza infraestrutura virtualizada para processar milhões de declarações simultaneamente no período de entrega.
+
+### 🌐 gov.br
+> **Sistema de Informação Governamental / Portal de Serviços Públicos (e-Gov)**
+
+É uma plataforma que centraliza serviços públicos digitais num só lugar. Combina SPT, SIG e funciona como um sistema de e-Government, facilitando o acesso da população ao governo.
 
 ---
 
+### 🎬 Netflix
+> **SPT + SIG + SAD + Big Data & Inteligência Artificial + Sistema de Streaming em Nuvem**
+
+| Camada | Função |
+|---|---|
+| **SPT (TPS)** | Registra assinaturas, pagamentos e acessos dos usuários |
+| **SIG (MIS)** | Gera relatórios de audiência, cancelamentos e receita |
+| **SAD (DSS)** | Analisa o comportamento do usuário para sugerir conteúdos |
+| **Big Data & IA** | Algoritmos que personalizam as recomendações pra cada pessoa |
+| **Streaming em Nuvem** | Distribui os vídeos em tempo real pelo mundo todo |
+
+---
+
+### 📅 Minha Agenda UFN
+> **SPT + SIG + Sistema de Informação Acadêmico (SIA)**
+
+| Camada | Função |
+|---|---|
+| **SPT (TPS)** | Registra agendamentos, presenças e atividades dos alunos |
+| **SIG (MIS)** | Gera relatórios para a parte administrativa da universidade |
+| **SIA** | Gerencia tudo que é específico do ambiente acadêmico, como horários e disciplinas |
+
+---
+
+### 🧾 Sistema de Imposto de Renda do Governo Brasileiro (IRPF)
+> **SPT + SAD + Big Data & Análise de Dados**
+
+| Camada | Função |
+|---|---|
+| **SPT (TPS)** | Processa as declarações, pagamentos e restituições dos contribuintes |
+| **SAD (DSS)** | Ajuda a Receita Federal a decidir quem vai ser auditado |
+| **Big Data & Análise** | Cruza informações de várias fontes para identificar inconsistências e possíveis fraudes |
+
+---
+
+## Referências
+
+- LAUDON, K. C.; LAUDON, J. P. *Sistemas de Informação Gerenciais*. 14. ed. São Paulo: Pearson, 2019.
+- O'BRIEN, J. A.; MARAKAS, G. M. *Administração de Sistemas de Informação*. 15. ed. Porto Alegre: AMGH, 2013.
+- REZENDE, D. A.; ABREU, A. F. *Tecnologia da Informação Aplicada a Sistemas de Informação Empresariais*. 9. ed. São Paulo: Atlas, 2013.
