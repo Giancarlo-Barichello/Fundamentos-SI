@@ -51,9 +51,6 @@
 
 # Glossário Aila 5 
 
----
-
-# Glossário — Fundamentos de Sistemas de Informação
 
 ---
 
