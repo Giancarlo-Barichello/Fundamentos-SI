@@ -15,13 +15,13 @@ Neste arquivo, há apontamentos e anotações de pontos discutidos em sala.
 ---
 
 ## Arquitetura Cliente-Servidor
-  -Sistema Ubuntu 22.04
-  -SGBD MYSQL
-  -Firewall S.O
-  -Gunicorn
-  -NGINX
-  -PYTHON-Django-Bootsrap
-    -Funcionalidades=Serviços(Gestões-Crud)
+  Sistema Ubuntu 22.04
+  SGBD MYSQL
+  Firewall S.O
+  Gunicorn
+  NGINX
+  PYTHON-Django-Bootsrap
+    Funcionalidades=Serviços(Gestões-Crud)
     
 ---
 
@@ -30,15 +30,15 @@ Neste arquivo, há apontamentos e anotações de pontos discutidos em sala.
 ---
 
 ##  Sistema de Gestão de Pizzaria
-  -Apps=serviço=funcionalidades (Crud)
-  -Gestão de Insumo
-  -Gestão de Usuarios
-  -Gestão de fornecedores
-  -Gestão de fornecedor-insumo
-  -Gestão pizza-insumo
-  -Gestão de cliente (perfil)
-  -Gestão cliente-compra
-  -Sistema de conhecimento
+  Apps=serviço=funcionalidades (Crud)
+  Gestão de Insumo
+  Gestão de Usuarios
+  Gestão de fornecedores
+  Gestão de fornecedor-insumo
+  Gestão pizza-insumo
+  Gestão de cliente (perfil)
+  Gestão cliente-compra
+  Sistema de conhecimento
   
 ---
 
