@@ -11,7 +11,9 @@ Neste arquivo, há apontamentos e anotações de pontos discutidos em sala.
 ---
 
 ##-Computação em nuvem
+
 ---
+
 ##-Arquitetura Cliente-Servidor
   -Sistema Ubuntu 22.04
   -SGBD MYSQL
@@ -20,9 +22,13 @@ Neste arquivo, há apontamentos e anotações de pontos discutidos em sala.
   -NGINX
   -PYTHON-Django-Bootsrap
     -Funcionalidades=Serviços(Gestões-Crud)
+    
 ---
+
 ##-Iaas + PaaS
+
 ---
+
 ##- Sistema de Gestão de Pizzaria
   -Apps=serviço=funcionalidades (Crud)
   -Gestão de Insumo
@@ -33,7 +39,9 @@ Neste arquivo, há apontamentos e anotações de pontos discutidos em sala.
   -Gestão de cliente (perfil)
   -Gestão cliente-compra
   -Sistema de conhecimento
+  
 ---
+
  ##-CRN
 
 
