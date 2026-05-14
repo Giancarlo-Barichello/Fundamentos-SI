@@ -1,6 +1,42 @@
 # Notas de aula da disciplina
 Neste arquivo, há apontamentos e anotações de pontos discutidos em sala.
 
+### Aula 6
+
+---
+
+
+## Sistemas Web
+
+---
+
+##-Computação em nuvem
+---
+##-Arquitetura Cliente-Servidor
+  -Sistema Ubuntu 22.04
+  -SGBD MYSQL
+  -Firewall S.O
+  -Gunicorn
+  -NGINX
+  -PYTHON-Django-Bootsrap
+    -Funcionalidades=Serviços(Gestões-Crud)
+---
+##-Iaas + PaaS
+---
+##- Sistema de Gestão de Pizzaria
+  -Apps=serviço=funcionalidades (Crud)
+  -Gestão de Insumo
+  -Gestão de Usuarios
+  -Gestão de fornecedores
+  -Gestão de fornecedor-insumo
+  -Gestão pizza-insumo
+  -Gestão de cliente (perfil)
+  -Gestão cliente-compra
+  -Sistema de conhecimento
+---
+ ##-CRN
+
+
 ### Aula 5
 ## IoT (Internet das Coisas)
  
