@@ -10,11 +10,11 @@ Neste arquivo, há apontamentos e anotações de pontos discutidos em sala.
 
 ---
 
-## -Computação em nuvem
+## Computação em nuvem
 
 ---
 
-## -Arquitetura Cliente-Servidor
+## Arquitetura Cliente-Servidor
   -Sistema Ubuntu 22.04
   -SGBD MYSQL
   -Firewall S.O
@@ -25,11 +25,11 @@ Neste arquivo, há apontamentos e anotações de pontos discutidos em sala.
     
 ---
 
-## -Iaas + PaaS
+## Iaas + PaaS
 
 ---
 
-## - Sistema de Gestão de Pizzaria
+##  Sistema de Gestão de Pizzaria
   -Apps=serviço=funcionalidades (Crud)
   -Gestão de Insumo
   -Gestão de Usuarios
@@ -42,7 +42,7 @@ Neste arquivo, há apontamentos e anotações de pontos discutidos em sala.
   
 ---
 
- ## -CRN
+ ## CRN
 
 
 ### Aula 5
