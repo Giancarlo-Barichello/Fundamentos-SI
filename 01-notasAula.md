@@ -1,6 +1,62 @@
 # Notas de aula da disciplina
 Neste arquivo, há apontamentos e anotações de pontos discutidos em sala.
 
+### Aula 7
+
+---
+
+## Virtualização de Máquinas e Hipervisores
+  Tipo 1 (Bare-Metal) - ESXi / Hyper-V / KVM
+  Tipo 2 (Hosted) - VirtualBox / VMware Workstation
+  Isolamento a nível de Hardware
+  Camada VMM (Virtual Machine Monitor)
+
+---
+
+## Máquina Virtual vs VENV
+  Máquina Virtual (VM)
+    Isola Hardware e S.O completo (Guest OS)
+    Tamanho em Gigabytes (10GB+)
+    Consumo fixo de RAM e CPU
+  VENV (Python)
+    Isola apenas pastas, pacotes e dependências (pip)
+    Tamanho em Megabytes (MB)
+    Consumo zero de hardware em segundo plano
+
+---
+
+## Tecnologia de Contêineres (Docker)
+  Isolamento lógico em nível de Processo (S.O)
+  Compartilhamento do Kernel do Hospedeiro
+  Consistência de Ambientes ("Na minha máquina funciona")
+    Resolução de conflitos de versões de linguagens
+    Ambientes de testes descartáveis e limpos
+
+---
+
+## Arquitetura do Primeiro Contêiner
+  Código Fonte (app.py)
+  Dockerfile (A Receita)
+    FROM python:3.10-slim
+    WORKDIR /app
+    COPY app.py .
+    CMD ["python", "app.py"]
+  Docker Image (O Executável - gerado via Build)
+  Docker Container (A Instância em execução - gerada via Run)
+
+---
+
+## Passando para Frente (Distribuição)
+  Docker Hub (Registro em Nuvem)
+    docker tag meu-app seu-user/meu-app
+    docker push seu-user/meu-app
+    docker run seu-user/meu-app (Remoto)
+  Exportação Física (Arquivo Local)
+    docker save -o meu-app.tar meu-app
+    docker load -i meu-app.tar
+
+
+
 ### Aula 6
 
 ---
