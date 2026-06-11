@@ -1,197 +1,390 @@
-# Notas de aula da disciplina
-Neste arquivo, há apontamentos e anotações de pontos discutidos em sala.
+# 📚 Notas de Aula - Sistemas de Informação
 
-### Aula 7
-
----
-
-## Virtualização de Máquinas e Hipervisores
-  Tipo 1 (Bare-Metal) - ESXi / Hyper-V / KVM
-  Tipo 2 (Hosted) - VirtualBox / VMware Workstation
-  Isolamento a nível de Hardware
-  Camada VMM (Virtual Machine Monitor)
+Repositório contendo anotações e resumos das aulas da disciplina.
 
 ---
 
-## Máquina Virtual vs VENV
-  Máquina Virtual (VM)
-    Isola Hardware e S.O completo (Guest OS)
-    Tamanho em Gigabytes (10GB+)
-    Consumo fixo de RAM e CPU
-  VENV (Python)
-    Isola apenas pastas, pacotes e dependências (pip)
-    Tamanho em Megabytes (MB)
-    Consumo zero de hardware em segundo plano
+# Aula 1 - Conceitos Básicos de Sistemas
+
+## Tópicos abordados
+
+### Sistemas
+- O que é um sistema
+- Para que serve
+- Quando utilizar
+
+### Elementos que compõem um sistema
+
+#### Aspectos Estruturais
+- Características
+- Propriedades
+
+#### Aspectos Funcionais
+- Comportamentos
+- Funcionalidades
+
+### Arquiteturas de Sistemas
+- Cliente-Servidor
+- Ponto-a-Ponto (P2P)
 
 ---
 
-## Tecnologia de Contêineres (Docker)
-  Isolamento lógico em nível de Processo (S.O)
-  Compartilhamento do Kernel do Hospedeiro
-  Consistência de Ambientes ("Na minha máquina funciona")
-    Resolução de conflitos de versões de linguagens
-    Ambientes de testes descartáveis e limpos
+# Aula 2 - Introdução ao GitHub
+
+## Tópicos abordados
+
+### GitHub
+- Criação de conta
+- Criação de repositório
+
+### Objetivos do GitHub
+- Controle de versão
+- Backup de código-fonte
 
 ---
 
-## Arquitetura do Primeiro Contêiner
-  Código Fonte (app.py)
-  Dockerfile (A Receita)
-    FROM python:3.10-slim
-    WORKDIR /app
-    COPY app.py .
-    CMD ["python", "app.py"]
-  Docker Image (O Executável - gerado via Build)
-  Docker Container (A Instância em execução - gerada via Run)
+# Aula 3 - Oficina de Git
+
+## Tópicos abordados
+
+### Oficina Git
+
+Repositório utilizado na oficina:
+
+<https://github.com/alexandrezamberlan/oficinaGit>
+
+### Trabalho Avaliado
+
+Cada aluno deve criar um arquivo chamado:
+
+```text
+02-glossario.md
+```
+
+O arquivo deve conter um glossário com palavras e expressões estudadas na disciplina.
 
 ---
 
-## Passando para Frente (Distribuição)
-  Docker Hub (Registro em Nuvem)
-    docker tag meu-app seu-user/meu-app
-    docker push seu-user/meu-app
-    docker run seu-user/meu-app (Remoto)
-  Exportação Física (Arquivo Local)
-    docker save -o meu-app.tar meu-app
-    docker load -i meu-app.tar
+# Aula 4 - Sistemas e Computação
 
+## Conceitos
 
+### Sistemas
+- Partes
+- Tipos
 
-### Aula 6
+### Computação e Processamento
+
+#### Desktop
+
+#### Web
+- Cloud Computing (Computação em Nuvem)
+- Aplicações
+- Navegadores
+
+### IoT (Internet of Things)
+
+#### Vantagens
+- Flexibilidade
+- Autonomia
+- Agilidade
+- Integração de tecnologias
+
+#### Desvantagens
+- Segurança
+- Dependência da internet
+
+#### Arquiteturas
+- Cliente-Servidor
+- Ponto-a-Ponto
+
+### Modelos de Serviços em Nuvem
+
+- IaaS
+- PaaS
+- SaaS
 
 ---
 
+# Aula 5 - IoT e Computação em Nuvem
+
+## IoT (Internet das Coisas)
+
+É a conexão de dispositivos físicos à internet para coleta e troca de dados.
+
+### Exemplos
+- Geladeiras inteligentes
+- Câmeras
+- Sensores
+- Veículos conectados
+
+---
+
+## Computação em Nuvem
+
+Utilização de recursos computacionais pela internet sem necessidade de infraestrutura própria.
+
+### Principais provedores
+- AWS
+- Azure
+- Google Cloud
+
+### Relação com IoT
+
+A computação em nuvem permite armazenar e processar grandes quantidades de dados gerados pelos dispositivos conectados.
+
+---
+
+## Sistemas Pervasivos
+
+Tecnologias inteligentes presentes em um ambiente específico e que auxiliam o usuário.
+
+### Exemplos
+- Automação residencial
+- Monitoramento de saúde
+- Sensores industriais
+
+---
+
+## Sistemas Ubíquos
+
+Tecnologias integradas ao ambiente de forma quase imperceptível.
+
+### Exemplos
+- Assistentes de voz
+- Espelhos inteligentes
+- Cadeiras com sensores de postura
+
+---
+
+## Comparação
+
+| Característica | Pervasivo | Ubíquo |
+|---------------|-----------|---------|
+| Visibilidade | Perceptível | Quase invisível |
+| Objetivo | Tarefa específica | Experiência do usuário |
+
+---
+
+# Aula 6 - Desenvolvimento Colaborativo
+
+## Boas práticas de desenvolvimento em grupo
+
+### Controle de Versão
+
+#### Git e GitHub
+- Controle de versões
+- Backup de projetos
+- Trabalho colaborativo
+
+---
+
+## Kanban
+
+Ferramenta de gerenciamento de tarefas.
+
+### Exemplo: Trello
+
+Fluxo básico:
+
+```text
+TO DO → DOING → DONE
+```
+
+### Etapas
+- A Fazer (To Do)
+- Fazendo (Doing)
+- Concluído (Done)
+
+---
+
+## Atividade
+
+Pesquisar:
+
+- Diferença entre técnica e metodologia
+- Integração entre Trello e GitHub
+
+---
+
+# Aula 6 - Sistemas Web e Computação em Nuvem
 
 ## Sistemas Web
 
+Estudo e desenvolvimento de aplicações acessadas através de navegadores.
+
 ---
 
-## Computação em nuvem
+## Computação em Nuvem
+
+Fornecimento de recursos computacionais pela internet.
 
 ---
 
 ## Arquitetura Cliente-Servidor
-  Sistema Ubuntu 22.04
-  SGBD MYSQL
-  Firewall S.O
-  Gunicorn
-  NGINX
-  PYTHON-Django-Bootsrap
-    Funcionalidades=Serviços(Gestões-Crud)
-    
----
 
-## Iaas + PaaS
+### Infraestrutura
 
----
+- Ubuntu 22.04
+- MySQL
+- Firewall
+- Gunicorn
+- NGINX
 
-##  Sistema de Gestão de Pizzaria
-  Apps=serviço=funcionalidades (Crud)
-  Gestão de Insumo
-  Gestão de Usuarios
-  Gestão de fornecedores
-  Gestão de fornecedor-insumo
-  Gestão pizza-insumo
-  Gestão de cliente (perfil)
-  Gestão cliente-compra
-  Sistema de conhecimento
-  
----
+### Aplicação
 
- ## CRN
+- Python
+- Django
+- Bootstrap
 
+### Funcionalidades
 
-### Aula 5
-## IoT (Internet das Coisas)
- 
-É a conexão de objetos do dia a dia à internet, como geladeiras, câmeras, sensores e carros. Esses dispositivos coletam e trocam dados entre si.
- 
----
- 
-## Computação em Nuvem
- 
-Em vez de ter um servidor físico na empresa, você "aluga" recursos de computação pela internet. Os principais provedores são AWS, Azure e Google Cloud.
- 
-A nuvem é essencial para IoT porque ajuda a armazenar e processar a enorme quantidade de dados que os dispositivos geram.
- 
----
- 
-## Sistemas Pervasivos
- 
-Dispositivos inteligentes presentes em um ambiente específico (casa, escritório) que trabalham em segundo plano pra facilitar a vida.
- 
-**Exemplos:** automação residencial, monitoramento de saúde, sensores industriais.
- 
----
- 
-## Sistemas Ubíquos
- 
-Dispositivos tão integrados ao ambiente que você mal percebe que estão lá. A ideia é que a tecnologia se adapte a você.
- 
-**Exemplos:** assistente de voz, espelho inteligente, cadeira com sensores de postura.
- 
----
- 
-## Diferença entre os dois
- 
-| | Pervasivo | Ubíquo |
-|---|---|---|
-| Visibilidade | Você percebe | Quase invisível |
-| Foco | Uma tarefa específica | Experiência geral do usuário |
-
-
-### Aula 4
-  - Conceitos:
-    - Sistemas;
-     - Partes
-     - Tipos
-  - Computação ou processamento
-     - Desktop
-     - Web -> Cloud Computing / Computação em Nuvem
-       - Apps (Software instalado em equipamento)
-       - Navegador
-    - IoT (Internet of Things)
-        - Vantagens
-           - Flexibilidade
-           - Autonomia
-           - Agilidade
-           - Inegração de tecnologia
-        - Desvantagens
-           - Segurança
-           - Dependencia (ex: internet)
-        - Arquitetura
-           - Cliente-Servidor
-           - Ponto-a-Ponto
-     - Modelos aquiteturais de serviços
-        - Iaas
-       - PaaS
-        - SaaS
----
-
-### Aula 3
-  - Apresentação da Oficina de Git - https://github.com/alexandrezamberlan/oficinaGit
-  - Apresentação, discussão e 1o trabalho avaliado
-    - Cada aluno deve criar no seu repositório da disciplina um arquivo chamado 02-glossario.md. Nesse arquivo, terá um vocabulário de palavras e/ou expressões estudadas na disciplina.
-   
----
-
-### Aula 2
-  - Apresentação e discussão da ferramenta e ambiente GITHUB
-    - criação de conta
-    - criação de repositório
-    - objetivos:
-      - controle de versão
-      - armazenamento de backup de códigos fonte
+- CRUD
+- Serviços de gestão
 
 ---
 
-### Aula 1
-  - Apresentação do plano de aula
-  - Apresentação e discussão de conceitos básicos:
-      - Sistema (o que é; para que serve; quando usar)
-      - Elementos que compõem um sistema:
-        - aspectos estruturais: características ou propriedades de um sistema
-        - aspectos funcionais: comportamento ou as funcionalidades que um sistema oferece
-        - arquiteturas de sistema
-          - cliente-servidor
-          - ponto-a-ponto 
+## Modelos de Serviço
+
+- IaaS
+- PaaS
+
+---
+
+## Sistema de Gestão de Pizzaria
+
+### Funcionalidades
+
+- Gestão de Insumos
+- Gestão de Usuários
+- Gestão de Fornecedores
+- Gestão Fornecedor-Insumo
+- Gestão Pizza-Insumo
+- Gestão de Clientes
+- Gestão Cliente-Compra
+- Sistema de Conhecimento
+
+---
+
+## CRN
+
+Conteúdo mencionado durante a aula.
+
+---
+
+# Aula 7 - Virtualização e Contêineres
+
+## Virtualização de Máquinas
+
+### Hipervisores Tipo 1 (Bare-Metal)
+
+- ESXi
+- Hyper-V
+- KVM
+
+### Hipervisores Tipo 2 (Hosted)
+
+- VirtualBox
+- VMware Workstation
+
+### Características
+
+- Isolamento em nível de hardware
+- Virtual Machine Monitor (VMM)
+
+---
+
+## Máquina Virtual vs Ambiente Virtual (VENV)
+
+| Máquina Virtual | VENV |
+|----------------|------|
+| Isola hardware e sistema operacional | Isola pacotes e dependências |
+| Possui Guest OS | Utiliza o sistema hospedeiro |
+| Consome vários GB | Consome poucos MB |
+| Reserva RAM e CPU | Sem consumo permanente |
+
+---
+
+## Docker e Contêineres
+
+### Características
+
+- Isolamento em nível de processo
+- Compartilhamento do kernel do hospedeiro
+- Consistência de ambientes
+
+### Benefícios
+
+- Evita conflitos de versões
+- Ambientes descartáveis
+- Facilidade de implantação
+
+---
+
+## Estrutura do Primeiro Contêiner
+
+### Código Fonte
+
+```python
+app.py
+```
+
+### Dockerfile
+
+```dockerfile
+FROM python:3.10-slim
+
+WORKDIR /app
+
+COPY app.py .
+
+CMD ["python", "app.py"]
+```
+
+### Fluxo
+
+```text
+Código Fonte
+     ↓
+ Dockerfile
+     ↓
+ Docker Image
+     ↓
+ Docker Container
+```
+
+---
+
+## Distribuição de Contêineres
+
+### Docker Hub
+
+```bash
+docker tag meu-app seu-user/meu-app
+
+docker push seu-user/meu-app
+
+docker run seu-user/meu-app
+```
+
+### Exportação Local
+
+```bash
+docker save -o meu-app.tar meu-app
+
+docker load -i meu-app.tar
+```
+
+---
+
+## 📖 Referências
+
+- GitHub
+- Docker
+- Trello
+- AWS
+- Azure
+- Google Cloud
+- Django
+- MySQL
+- Ubuntu Server
